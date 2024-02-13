@@ -38,12 +38,12 @@ public class movement : MonoBehaviour
 
         if ((Input.GetKey(KeyCode.D))&&(spriteRenderer.sprite == circle))
         {
-            transform.Translate(0.01f, 0, 0);
+            transform.Translate(0.1f, 0, 0);
         }
 
         if ((Input.GetKey(KeyCode.A))&&(spriteRenderer.sprite == circle))
         {
-            transform.Translate(-0.01f, 0, 0);
+            transform.Translate(-0.1f, 0, 0);
         }    
     }
 }
